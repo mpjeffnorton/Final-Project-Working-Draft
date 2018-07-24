@@ -1,17 +1,12 @@
-function MyFunction()
-var thehours = new Date().getHours();
-	var themessage;
-	var morning = ('Good morning');
-	var afternoon = ('Good afternoon');
-	var evening = ('Good evening');
-
-	if (thehours >= 0 && thehours < 12) {
-		themessage = morning; 
-
-	} else if (thehours >= 12 && thehours < 17) {
-		themessage = afternoon;
-
-	} else if (thehours >= 17 && thehours < 24) {
-		themessage = evening;
+/* jshint browser:true */
+var time = t.getDate;
+    if (time < 12) {
+        document.write("Good Morning");
+    } 
+    else if (time < 18) {
+        document.write("Good Afternoon");
+    } 
+    else if (time < 24); {
+        document.write("Good Evening");
 	}
 	('.greeting').append(themessage);
