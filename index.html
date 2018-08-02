@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Digital Literacy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="java.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+    
 </head>
 <body>
 
@@ -21,14 +21,16 @@
         <div class="navlinks">
 
                 <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
     
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="/htmlpages/aboutme.html">About Me</a></li>
     
                     <li><a href="#">Assignments</a></li>
     
-                    <li><a href="#">Strands and Standards</a></li>
+                    <li><span class="strands"><a href="#">Strands and Standards</a></span></li>
     
-                    <li><a href="#">Extra Resources</a></li>
+                    <li><a href="resources.html">Extra Resources</a></li>
 
                     </ul>
 
@@ -41,8 +43,8 @@
                     </div>
 
                     </div>
-
-                    <div class="greeting">
+                    
+                    <div id="greeting">
                         
 
         <h1 class="homepageheader">Digital Literacy Homepage</h1>
@@ -57,6 +59,10 @@
 
         </div>
 
+        </div>
+
+        
+
         <div id="explanation">
 
         <p>Welcome to the Digital Literacy Homepage for my class.  Here you will find all of the resources that are passed out in class.  
@@ -68,20 +74,29 @@
 
         <div id="video">
 
-        <iframe width="700" height="450" src="https://youtu.be/_LElWqXi7Ag?autoplay=1,controls=1">
-        
-        </iframe>
+            <iframe width="560" height="415" src="https://www.youtube.com/embed/_LElWqXi7Ag" allowfullscreen></iframe>
 
-  <div class="technews">
-       
-       <a href="https://techcrunch.com/">Tech Crunch Top Stories</a>
-           
-           </div>
-        
-    </div>
+            <div class="news red">
+                <span>Top Stories of the Day</span>
+
+                <ul>
+                    <li><a href="https://techcrunch.com/pages/rssfeeds/">Tech Crunch</a></li>
+                    <li><a href="https://www.reuters.com/news/archive/technologyNews">Reuters</a><br/></li>
+                    <li><a href="https://www.theverge.com/tech">The Verge</a><br/></li>
+                    <li><a href="https://www.bbc.com/news/technology">BBC</a></li>
+                </ul>
+
+        </div>             
 
     </div>
-        
+    
+
+
+   
+    <script src="/javascript/jquery.js"></script>
+    <script src="/javascript/main.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 
 </html>
