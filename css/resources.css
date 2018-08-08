@@ -1,3 +1,7 @@
+body{
+    background-color: lightblue
+}
+
 /*nav menu*/
 
 #navmenu
@@ -57,17 +61,22 @@ li a
 
 #granite
 {
-    background-color: lightblue;
-}
-
-#granite
-{
    text-align: center;
     font-family: sans-serif;
     font-size: 1.5em;
     padding-bottom: 35px;
     margin-bottom: 35px;
+    display: block
 }
+
+.school {
+    text-align: center;
+    padding: auto;
+    padding: inherit;
+    margin: auto;
+    display: block
+}
+
 #granite.p
 {
     text-align: left;
@@ -91,38 +100,30 @@ li a
 
 #extra
 {
-    background-color:lightblue;
     text-align: center;
     align-content: center;
     margin-top: 10px;
-}
-
-#additional
-{
-    background-color: lightblue;
+    display: block;
 }
 
 #additional ul li
 {
-    background-color: lightblue;
-    float:right;
-    padding-right: 264px;
+    float:left;
 }
 
 /*links*/ 
 
-a link:active 
+a:active 
 {
     color: black
 }
 
-a link: hover 
+a:hover 
 {
     color: red
 }
 
-a link: clicked 
+a:clicked 
 {
     color:darkgoldenrod
 }
-

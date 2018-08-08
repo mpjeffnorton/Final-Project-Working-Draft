@@ -1,3 +1,9 @@
+body{
+    background-image: url(/Images/streamfishing.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
 #navmenu
 {
     background-color: orangered;
@@ -44,32 +50,34 @@ li a
 
 /*links*/
 
-a link:active {
+a:active {
     color: black
 }
 
-a link:hover {
+a:hover {
     color: red
 }
 
-a link:clicked {
+a:clicked {
     color: darkgoldenrod
 }
 
 .family
 {
-    height:400px;
-    width:400px
+    height:200px;
+    width:200px
 }
 
-#personal
+#personal1
 {
     margin:auto;
     display:block;
     position: inherit;
     float:right;
     margin-right:25px;
-    text-align: center
+    text-align: center;
+    list-style-position: inside;
+    line-height: 1.2em 
 }
 
 .hanging
@@ -85,10 +93,27 @@ a link:clicked {
     margin:auto;
     display:block;
     position: absolute;
+    line-height: 1.2em
 }
 
   .family {
       box-align: center;
     height: 300px;
     width: 300px;
+    transform: inherit;
+-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
   }
+
+p{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}

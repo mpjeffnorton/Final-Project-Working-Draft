@@ -1,7 +1,7 @@
 window.onload = function() {
     var date = new Date();
     var hours = date.getHours();
-    document.getElementById("greeting").innerHTML = getGreeting(hours);
+    document.getElementById("homepageheader").innerHTML = getGreeting(hours);
 };
 
 function getGreeting(hours) {
